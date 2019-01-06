@@ -6,7 +6,7 @@ class Footer extends React.Component{
     render(){
         return(
             <div>
-              <div className="footerbg">
+              <div className="footerbg" id="contact">
                  <Container>
                     <Row>
                         <Col sm="6" md="6">

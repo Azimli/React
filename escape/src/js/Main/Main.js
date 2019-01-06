@@ -9,7 +9,7 @@ class Main extends React.Component{
                 <Container>
                        <Row>
                            <Col md="9" sm="9">
-                        <div className="Main_txt">
+                        <div className="Main_txt" id="service">
                             <h1 className="main_h1">Web <b>Development</b></h1>
                             <p className="main_txt">
                                 Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum <br/>
@@ -58,6 +58,8 @@ class Main extends React.Component{
                 <Container>
                     <Row>
                         <Col md="6" sm="6">
+
+
                             <ul className="clients">
                                 <li><i className="fas fa-male man fa-3x"></i></li>
                                 <div className="h4_txt1">
@@ -163,7 +165,7 @@ class Main extends React.Component{
 
                 <div className="main_2">
                     <Container>
-                        <div className="text_main_h1">
+                        <div className="text_main_h1" id="clients">
                             <h1>Awesome <b>Clients</b></h1>
                             <p>See what nice things our clients said about us. </p>
                         </div>
@@ -227,7 +229,7 @@ class Main extends React.Component{
                         </ul>
                     </div>
                 </Container>
-                <div className="teambg">
+                <div className="teambg" id="team">
                     <Container>
                         <div className="team_text">
                             <h1>Amazing <b>Team</b></h1>

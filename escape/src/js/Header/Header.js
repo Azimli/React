@@ -6,7 +6,7 @@ class Header extends React.Component{
     render(){
         return(
             <div>
-                <div className="bg">
+                <div className="bg" id="#bg_home">
                     <Container>
                        <Row>
                            <Col md="6" sm="6" >
@@ -19,11 +19,11 @@ class Header extends React.Component{
                            <Col md="6" sm="6">
                                 <nav className="nav navbar-header">
                                     <ul className="menu">
-                                        <li><a href="">Home</a></li>
-                                        <li><a href="">Services</a></li>
-                                        <li><a href="">Clients</a></li>
-                                        <li><a href="">Team</a></li>
-                                        <li><a href="">Contact</a></li>
+                                        <li><a href="#pg_home">Home</a></li>
+                                        <li><a href="#service">Services</a></li>
+                                        <li><a href="#clients">Clients</a></li>
+                                        <li><a href="#team">Team</a></li>
+                                        <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </nav>
                            </Col>
