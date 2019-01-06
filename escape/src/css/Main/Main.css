@@ -1,0 +1,353 @@
+*{
+    list-style: none;
+}
+@font-face {
+    font-family: "Cubrano Regular";
+    src: url("../../fonts/Cubano-Regular.otf");
+}
+@font-face {
+    font-family: "brandon-grotesque-medium";
+    src: url("../../fonts/brandon-grotesque-medium.woff");
+}
+@font-face {
+    font-family: "brandon_light";
+    src: url("../../fonts/brandon_light.otf");
+}
+.Main_txt{
+    margin-top: 100px;
+}
+
+.main_h1{
+font-family: brandon-grotesque-light;
+    font-size: 60px;
+    color: #222222;
+}
+
+.main_txt{
+    font-family: brandon-grotesque-medium;
+    color: #777777;
+    font-size: 18px;
+}
+
+.bg_1_sekil{
+    background-image: url("../../img/Main/bg_1.png");
+    width: 231px;
+    height: 222px;
+    margin-top: 110px;
+}
+
+.Main_person{
+    margin-top: 100px;
+    background-color: #fafafa;
+    height: 440px;
+    width: 100%;
+}
+
+.person_image{
+    background-image: url("../../img/Main/person.png");
+    width: 307px;
+    height: 242px;
+    position: relative;
+    top: 90px;
+}
+
+.person_txt{
+    margin-top: 10%;
+}
+
+.h4_txt1{
+    font-family: brandon-grotesque-medium;
+    font-size: 60px;
+    color: #222222;
+}
+
+.p_txt1{
+    font-family: brandon-grotesque-medium;
+    color: #777777;
+    font-size: 18px;
+}
+.clients{
+    margin-top: 75px;
+}
+.clients li{
+    width: 70px;
+    height: 70px;
+    background-color: #222222;
+    border-radius: 100%;
+    list-style: none;
+    text-align: justify;
+    float: left;
+}
+
+.clients li i{
+    color: #ffffff;
+}
+
+.man{
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.chrome{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.video{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.star{
+    margin-left: 13%;
+    margin-top: 10px;
+}
+
+.camera{
+    margin-left: 18%;
+    margin-top: 10px;
+}
+.p_txt1 p{
+    font-family: brandon-grotesque-medium;
+    color: #777777;
+    font-size: 18px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.h4_txt1 h4{
+    font-family: brandon-grotesque-medium;
+    color: #222222;
+    font-size: 22px;
+    float: left;
+    margin-left: 20px;
+}
+
+.main_2{
+    background-color: #fafafa;
+    width: 100%;
+    height: 810px;
+    /*border-bottom: 5px solid #ededed;*/
+    margin-top: 100px;
+}
+.text_main_h1{
+    text-align: center;
+    padding-top: 100px;
+}
+.text_main_h1 h1{
+font-family: brandon-grotesque-light;
+    color: #222222;
+    font-size: 60px;
+}
+
+.text_main_h1 p{
+    font-family: brandon-grotesque-medium;
+    color: #777777;
+    font-size: 22px;
+}
+
+.daire_esas{
+    padding-top: 50px;
+}
+.daire1{
+    width: 220px;
+    height: 220px;
+    background-color: #111111;
+    border-radius: 100%;
+}
+
+.daire_text1,.daire_texts2{
+    width: 640px;
+    height: 170px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    z-index: 3;
+
+}
+.daire_text1:before{
+    content: "";
+    display: block;
+    width: 25px;
+    background-color: white;
+    height: 25px;
+   border: 2px solid #ededed;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 40%;
+    left: -15px;
+    z-index: 2;
+}
+
+.daire_texts2:before{
+    content: "";
+    display: block;
+    width: 25px;
+    background-color: white;
+    height: 25px;
+    border: 2px solid #ededed;
+    border-left: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 40%;
+    right: -15px;
+    z-index: 2;
+}
+
+.daire_text1,.daire_texts2{
+    font-family:brandon-grotesque-medium;
+    color: #777777;
+    font-size: 26px;
+    padding-left: 60px;
+    padding-top: 40px;
+    border: 2px solid #ededed;
+
+}
+
+.daire_text2,.daire_texts3{
+    font-family: brandon-grotesque-medium;
+    color: #7690c5;
+    font-size: 20px;
+}
+
+.daire2{
+    width: 220px;
+    height: 220px;
+    background-color: #111111;
+    border-radius: 100%;
+    position: relative;
+    left: 25em;
+}
+
+.reklam{
+    margin-top: 180px;
+}
+
+.reklem_icon{
+    list-style: none;
+}
+.reklem_icon li{
+    float: left;
+    margin-left: 50px;
+}
+.reklem_icon li:hover{
+cursor: pointer;
+}
+.envato{
+    background-image: url("../../img/Main/envato.png");
+    width: 168px;
+    height: 48px;
+}
+.wordpress{
+    background-image: url("../../img/Main/wordpress.png");
+    width: 200px;
+    height: 53px;
+}
+
+.tuts{
+    background-image: url("../../img/Main/tuts.png");
+    width: 131px;
+    height: 41px;
+}
+
+.microlancer{
+    background-image: url("../../img/Main/microlancer.png");
+    width: 176px;
+    height: 53px;
+}
+
+.teambg{
+    width:100%;
+    height: 800px;
+    background-color: #111111;
+    position: relative;
+    top: 130px;
+    clear: both;
+}
+
+.team_text{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.team_text h1{
+    font-family: brandon-grotesque-light;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.team_text p{
+    font-family: brandon-grotesque-medium;
+    font-size: 22px;
+    color: #777777;
+    padding-bottom: 75px;
+}
+
+.tamdaire1{
+    width: 220px;
+    height: 220px;
+    border: 7px solid white;
+    border-radius: 100%;
+}
+
+.textteam{
+    width: 210px;
+}
+
+.textteam h3{
+    font-family: brandon-grotesque-bold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.textteam p{
+    font-family: brandon-grotesque-medium;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.teamsocila1 li{
+    width: 30px;
+    height: 30px;
+    border: 4px solid white;
+    border-radius: 100%;
+    margin-left: 10px;
+    float: left;
+}
+
+.teamsocila1 li,.fbteam:hover{
+    cursor: pointer;
+}
+
+.fbteam{
+    color: #ffffff;
+    padding-left: 7px;
+}
+
+.twteam{
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.lnteam{
+    color: #ffffff;
+    padding-left: 4px;
+    position: relative;
+    bottom: 2px;
+}
+.sonp{
+    margin-left: 25%;
+    margin-top: 70px;
+    text-align: center;
+}
+.sonp p{
+
+    font-family: brandon-grotesque-medium;
+    font-size: 20px;
+    color: #ebebeb;
+}

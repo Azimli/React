@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Cubrano Regular";
+  src: url("../../fonts/Cubano-Regular.otf");
+}
+@font-face {
+  font-family: "brandon-grotesque-medium";
+  src: url("../../fonts/brandon-grotesque-medium.woff");
+}
+@font-face {
+  font-family: "brandon_light";
+  src: url("../../fonts/brandon_light.otf");
+}
+.bg{
+  background-image: url("../../img/Header/logo.png");
+  height: 622px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plane{
+  color: white;
+}
+
+.logo{
+  margin-top: 50px;
+}
+
+.logo_title{
+  font-family: "Cubrano Regular";
+  font-size: 24.84px;
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 10px;
+}
+.nav{
+  margin-top: 53px;
+}
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li a{
+  color: white;
+  text-decoration: none;
+  font-family: brandon-grotesque-medium;
+  font-size: 18px;
+}
+
+.menu li a:hover{
+  color: red;
+}
+
+.menu_text{
+  text-align: center!important;
+  margin-top: 160px;
+}
+.txt1{
+  font-family: brandon-grotesque-light;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.txt2{
+  font-family: brandon-grotesque-bold;
+  color: #ffffff;
+  font-size: 66px;
+}
+
+.btn{
+  width: 240px;
+  height: 65px;
+  background: none;
+  outline: none;
+  border: 2px solid #ffffff;
+  font-family: brandon-grotesque-bold;
+  font-size: 23px;
+  color: #ffffff;
+  margin-top: 70px;
+}
+
+.btn:hover{
+  color: red;
+  border: solid red;
+  transition: 1.5s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:678px) {
+.menu li{
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  }
+
+  .menu_text{
+    display: none;
+  }
+}

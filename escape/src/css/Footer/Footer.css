@@ -1,0 +1,91 @@
+.footerbg{
+    width: 100%;
+    height: 640px;
+    background-color: #7690c5;
+    position: relative;
+    top: 8em;
+}
+
+.footer_text{
+    margin-top: 100px;
+}
+.footer_text h1{
+    font-family: brandon-grotesque-light;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.footer_text p{
+    font-family: brandon-grotesque-medium;
+    font-size: 18px;
+    color: #ffffff;
+}
+.contact_list{
+    margin-top: 50px;
+    float: left;
+    position: relative;
+    right: 25px;
+}
+
+.contact_list2{
+    margin-top: 50px;
+    float: left;
+    padding-left: 80px;
+}
+
+
+
+
+.contact_list li,.contact_list2 li{
+    display: block;
+    color: white;
+    font-family: brandon-grotesque-medium;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #ffffff;
+
+
+}
+
+.mob{
+    color: white;
+    position: relative;
+    right: 15px;
+    top: 10px;
+}
+
+.formFooter{
+    margin-top: 130px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+    color: red;
+}
+
+textarea{
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 5px;
+    height: 210px;
+    padding: 20px;
+    resize: none;
+}
+
+.footerson{
+    position: relative;
+    top: 3em;
+}
+
+
+
+.footerson_txt p{
+    font-family: brandon-grotesque-medium;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
