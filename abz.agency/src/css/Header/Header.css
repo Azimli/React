@@ -1,0 +1,14 @@
+
+/*Header hissesinin baslangici*/
+.header_bg{
+    background-color: #ffffff;
+    width: 100%;
+    height: 64px;
+}
+.header_bg img
+{
+    margin-top: 10px;
+}
+
+
+/*Header hissessinin sonu*/
