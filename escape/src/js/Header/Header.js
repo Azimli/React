@@ -1,7 +1,8 @@
+import 'intersection-observer';
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../../css/Header/Header.css';
-import { Collapse, Navbar,Toggle, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import {Toggle, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 class Header extends React.Component{
     render(){
         return(
