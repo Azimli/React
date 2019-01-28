@@ -9,13 +9,25 @@ class Header extends React.Component{
                 <div className="header_bg">
                     <Container>
                         <Row>
-                            <Col xs="6">
+                            <Col xs="3">
                                 <img src={logo} width="220px" height="50px"/>
                             </Col>
 
                             <Col xs="6">
+                                <ul className="menu_header">
+                                    <li><b><a href="">About me</a></b>    </li>
+                                    <li><a href="">Relationship</a></li>
+                                    <li><a href="">Requirements</a></li>
+                                    <li><a href="">Users</a></li>
+                                    <li><a href="">Sign Up</a></li>
+                                </ul>
+                            </Col>
+
+                            <Col xs="3">
 
                             </Col>
+
+
 
 
                         </Row>
