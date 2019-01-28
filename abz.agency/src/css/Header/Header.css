@@ -19,7 +19,8 @@
 }
 .menu_header{
   margin: 0 auto;
-    margin-top: 25px;
+    position: relative;
+    top: 25px;
     padding: 0;
 }
 .menu_header li{
@@ -40,6 +41,9 @@
     top: 20px;
 }
 
+.text{
+    
+}
 
 
 /*Header hissessinin sonu*/

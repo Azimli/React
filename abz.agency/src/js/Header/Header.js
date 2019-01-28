@@ -24,6 +24,14 @@ class Header extends React.Component{
                             </Col>
 
                             <Col xs="3">
+                                <div className="text">
+                                    <p className="name">
+                                        Superstar
+                                    </p>
+                                    <p className="email">
+                                        Superstar@gmail.com
+                                    </p>
+                                </div>
 
                             </Col>
 
