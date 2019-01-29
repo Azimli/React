@@ -11,11 +11,11 @@ class Header extends React.Component{
                 <div className="header_bg">
                     <Container>
                         <Row>
-                            <Col xs="2">
+                            <Col xs="3" lg="3">
                                 <img src={logo} width="135px" height="24px"/>
                             </Col>
 
-                            <Col xs="6">
+                            <Col xs="6" lg="6">
                                 <ul className="menu_header">
                                     <li><b><a href="">About me</a></b>    </li>
                                     <li><a href="">Relationship</a></li>
@@ -25,7 +25,7 @@ class Header extends React.Component{
                                 </ul>
                             </Col>
 
-                            <Col xs="4">
+                            <Col xs="3" lg="3">
                                 <div className="icon_img">
                                    <div className="text_herder">
                                         <p className="name">
