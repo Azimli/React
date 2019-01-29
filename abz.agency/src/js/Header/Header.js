@@ -27,11 +27,21 @@ class Header extends React.Component{
 
                             <Col xs="4">
                                 <div className="icon_img">
-                                    <div className="text">
+                                   <div className="text_herder">
+                                        <p className="name">
+                                            Superstar
+                                        </p>
 
+                                       <p className="email">
+                                           Superstar@gmail.com
+                                       </p>
+                                   </div>
+
+                                    <div className="sekil">
+                                        <img src={circleimg2} className="circleimg2" width="40px" height="40px" alt=""/>
+                                        <img src={icon} className="icon1" alt="" width="24px" height="20px" />
                                     </div>
-                                    <img src={circleimg2} className="circleimg2" width="40px" height="40px" alt=""/>
-                                    <img src={icon} className="icon1" alt="" width="24px" height="20px" />
+
 
                                 </div>
 
