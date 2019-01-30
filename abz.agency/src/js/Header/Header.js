@@ -9,49 +9,7 @@ class Header extends React.Component{
         return (
             <div>
                 <div className="header_bg">
-                    <Container>
-                        <Row>
-                            <Col xs="3" lg="3">
-                                <img src={logo} width="135px" height="24px"/>
-                            </Col>
 
-                            <Col xs="6" lg="6">
-                                <ul className="menu_header">
-                                    <li><b><a href="">About me</a></b>    </li>
-                                    <li><a href="">Relationship</a></li>
-                                    <li><a href="">Requirements</a></li>
-                                    <li><a href="">Users</a></li>
-                                    <li><a href="">Sign Up</a></li>
-                                </ul>
-                            </Col>
-
-                            <Col xs="3" lg="3">
-                                <div className="icon_img">
-                                   <div className="text_herder">
-                                        <p className="name">
-                                            Superstar
-                                        </p>
-
-                                       <p className="email">
-                                           Superstar@gmail.com
-                                       </p>
-                                   </div>
-
-                                    <div className="sekil">
-                                        <img src={circleimg2} className="circleimg2" width="40px" height="40px" alt=""/>
-                                        <img src={icon} className="icon1" alt="" width="24px" height="20px" />
-                                    </div>
-
-
-                                </div>
-
-                            </Col>
-
-
-
-
-                        </Row>
-                    </Container>
                 </div>
             </div>
         );
