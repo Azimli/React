@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from  './js/Header/Header';
+import Container from './js/Container/Container';
 import './App.css';
-import Container from "reactstrap/es/Container";
 
 class App extends Component {
   render() {
