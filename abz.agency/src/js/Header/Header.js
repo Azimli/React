@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../css/Header/Header.css';
 import '../../css/Header/Header_responsive.css';
-import {Container,Row,Col} from 'reactstrap';
 import logo from '../../img/logo.svg';
 import icon from '../../icons/sign-out.svg';
 import  circleimg2 from '../../img/user-superstar-2x.jpg';
@@ -63,15 +62,9 @@ class Header extends React.Component{
                                     that meets minimum requirements. We look forward to your <br/>
                                     submission. Good luck!
                                 </p>
-
                             <button className="btn_bg">Sign Up</button>
-
-
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
         );

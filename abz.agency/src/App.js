@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from  './js/Header/Header';
 import './App.css';
+import Container from "reactstrap/es/Container";
 
 class App extends Component {
   render() {
@@ -9,6 +10,9 @@ class App extends Component {
       <Header>
 
       </Header>
+          <Container>
+
+          </Container>
       </div>
     );
   }

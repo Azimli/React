@@ -52,6 +52,8 @@
 }
 
 .header_img{
+    position: relative;
+    bottom: 4px;
     display: flex;
 }
 .header_icons{
@@ -97,6 +99,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  30% 30%;
+    margin-bottom: 140px;
 }
 
 .bg_photo_txt{
@@ -122,8 +125,16 @@
     color: #ffffff;
     font-weight: bold;
     font-size: 20px;
+
 }
 
+.btn_bg:hover{
+    cursor: pointer;
+}
+
+.h1{
+
+}
 
 
 
