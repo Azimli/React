@@ -92,18 +92,18 @@
 }
 
 .bag_photo{
-    position: absolute;
     width: 100%;
     height: 677px;
     background-image: url("../../img/bg-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  30% 30%;
-    margin-bottom: 140px;
+    margin-bottom:  140px;
 }
 
 .bg_photo_txt{
-    margin-top: 138px;
+    position: relative;
+    top: 138px;
 }
 
 .title{
@@ -120,7 +120,7 @@
     width:290px;
     height:40px;
     background-color: #ef6c00;
-  border: none;
+    border: none;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
@@ -131,13 +131,6 @@
 .btn_bg:hover{
     cursor: pointer;
 }
-
-.h1{
-
-}
-
-
-
 
 
 
