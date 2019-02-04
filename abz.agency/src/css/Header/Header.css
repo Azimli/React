@@ -5,10 +5,9 @@
     list-style: none;
     text-decoration: none;
 }
-@font-face {
-    font-family: SourceSansPro;
-    src: url("../../fonts/SourceSansPro-Regular.ttf");
-}
+
+
+
 .header_bg{
     background-color: #ffffff;
     width: 100%;
