@@ -106,7 +106,6 @@ class Container extends React.Component{
                             <img src={man} alt=""/>
                         </div>
                     </div>
-
                 </div>
             </div>
 
