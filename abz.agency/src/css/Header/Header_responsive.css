@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1024px){
+.center_2560{
+    margin: 0 auto;
+    width: 930px;
+}
+
+    .logo_header img{
+        margin-right: 74px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+.center_2560{
+    width: 720px;
+    margin: 0 auto;
+}
+
+    .header_menu{
+        display: none;
+    }
+
+    .header_icons{
+    display: none;
+}
+
+
+}
