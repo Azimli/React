@@ -111,4 +111,26 @@
     padding-top: 230px;
 }
 
+.container_finish{
+   position: relative;
+    top:265px;
+}
 
+.container_txt_finish{
+    text-align: center;
+}
+
+.container_finish h1{
+    font-size: 42px;
+}
+
+.container_finish p {
+    font-size: 18px;
+}
+
+.people_menu li img{
+    width:140px;
+    height: 140px;
+    border-radius: 100%;
+
+}

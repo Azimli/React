@@ -5,6 +5,7 @@ import html from '../../img/html.svg';
 import css from '../../img/css.svg';
 import js from  '../../img/javascript.svg';
 import man from '../../img/man-laptop-v1.svg';
+import user_noah from '../../img/user-noah-2x.jpg';
 class Container extends React.Component{
     render() {
         return(
@@ -105,8 +106,43 @@ class Container extends React.Component{
                         <div className="con_bg_img">
                             <img src={man} alt=""/>
                         </div>
+
+
+
                     </div>
+
                 </div>
+                <div className="container_finish">
+
+                    <div className="container_txt_finish">
+                        <h1>Our cheerful users</h1>
+                        <p>Attention! Sorting users by registration date</p>
+                    </div>
+
+                    <div className="container_people center_2560">
+                        <ul className="people_menu">
+                            <li>
+                                <img src={user_noah} alt=""/>
+                                <h6>Noah</h6>
+                                <p></p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
             </div>
 
 
