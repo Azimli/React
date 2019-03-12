@@ -6,6 +6,8 @@ import css from '../../img/css.svg';
 import js from  '../../img/javascript.svg';
 import man from '../../img/man-laptop-v1.svg';
 import user_noah from '../../img/user-noah-2x.jpg';
+import adolphi from '../../img/user-adolph-2x.png';
+import  liam from  '../../img/user-liam-2x.jpg';
 class Container extends React.Component{
     render() {
         return(
@@ -119,13 +121,54 @@ class Container extends React.Component{
                         <p>Attention! Sorting users by registration date</p>
                     </div>
 
-                    <div className="container_people center_2560">
+                    <div className="container_people">
+                        <div className="center_2560">
                         <ul className="people_menu">
                             <li>
                                 <img src={user_noah} alt=""/>
-                                <h6>Noah</h6>
-                                <p></p>
+                                <div>
+                                <h6>Noah</h6> <br/>
+                                <p>
+                                    Leading specialist of the Control Department <br/>
+                                    noah.controldepartment@gmail.com <br/>
+                                    +38 (050) 678 03 24
+                                </p>
+
+                                </div>
                             </li>
+                            
+                            <li>
+                                <img src={adolphi} alt=""/>
+                                <div>
+                                <h6>Adolph Blaine Charles <br/> David Earl </h6> <br/>
+                                <p>
+                                    The contextual advertising specialist <br/>
+                                    adolph.blainecharles-davidearl@example.com <br/>
+                                    +38 (095) 556 08 45
+                                </p>
+                                </div>
+
+                            </li>
+                            
+                            <li>
+                                <img src={liam} alt=""/>
+                                <div>
+                                <h6>Liamgrievescasey <br/>
+                                    Smith Wiam
+                                </h6> <br/>
+
+                                <p>
+                                    Lead designer <br/>
+                                    liamgrievescasey@example.com <br/>
+                                    +38 (050) 273 93 32
+                                </p>
+                                </div>
+                            </li>
+
+
+
+
+
                         </ul>
                     </div>
 
@@ -134,7 +177,7 @@ class Container extends React.Component{
 
 
 
-
+                </div>
 
                 </div>
 
