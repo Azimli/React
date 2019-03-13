@@ -8,6 +8,10 @@ import man from '../../img/man-laptop-v1.svg';
 import user_noah from '../../img/user-noah-2x.jpg';
 import adolphi from '../../img/user-adolph-2x.png';
 import  liam from  '../../img/user-liam-2x.jpg';
+import elizabeth from '../../img/user-elizabeth-2x.jpg';
+import aleksandr from '../../img/user-alexander-2x.jpg';
+import mason from '../../img/user-mason-2x.jpg';
+
 class Container extends React.Component{
     render() {
         return(
@@ -123,53 +127,93 @@ class Container extends React.Component{
 
                     <div className="container_people">
                         <div className="center_2560">
-                        <ul className="people_menu">
-                            <li>
-                                <img src={user_noah} alt=""/>
-                                <div>
-                                <h6>Noah</h6> <br/>
-                                <p>
-                                    Leading specialist of the Control Department <br/>
-                                    noah.controldepartment@gmail.com <br/>
-                                    +38 (050) 678 03 24
-                                </p>
 
-                                </div>
-                            </li>
-                            
-                            <li>
-                                <img src={adolphi} alt=""/>
-                                <div>
-                                <h6>Adolph Blaine Charles <br/> David Earl </h6> <br/>
-                                <p>
-                                    The contextual advertising specialist <br/>
-                                    adolph.blainecharles-davidearl@example.com <br/>
-                                    +38 (095) 556 08 45
-                                </p>
-                                </div>
+                            <ul className="people_menu">
+                                <li>
+                                    <img src={user_noah} alt="" />
+                                        <div className="text">
+                                            <h6>
+                                                Noah
+                                            </h6>
+                                            <p>Leading specialist of the Control Department</p>
+                                            <p>noah.controldepartment@gmail.com</p>
+                                             <p>+38 (050) 678 03 24</p>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div className="img">
+                                        <img src={adolphi} alt="" />
+                                    </div>
+                                    <div className="text">
+                                        <h6>
+                                            Adolph Blaine Charles <br/> David Earl
+                                        </h6>
+                                        <p>The contextual advertising specialist</p>
+                                        <p>adolph.blainecharles-davidearl@example.com</p>
+                                         <p>+38 (095) 556 08 45</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="img">
+                                        <img src={liam} alt="" />
+                                    </div>
+                                    <div className="text">
+                                        <h6>
+                                            Liamgrievescasey <br/> Smith Wiam
+                                        </h6>
+                                        <p>Lead designer </p>
+                                        <p>  liamgrievescasey@example.com</p>
+                                         <p>+38 (050) 273 93 32</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="img">
+                                        <img src={elizabeth} alt="" />
+                                    </div>
+                                    <div className="text">
+                                        <h6>
+                                            Elizabeth
+                                        </h6>
+                                        <p>Frontend developer
+                                            elisabet.frontend@gmail.com <br/>
+                                            +38 (095) 924 66 37
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="img">
+                                        <img src={aleksandr} alt="" />
+                                    </div>
+                                    <div className="text">
+                                        <h6>
+                                            Alexander
+                                        </h6>
+                                        <p>
+                                            Backend developer <br/>
+                                            alexander.backend@gmail.com <br/>
+                                            +38 (050) 789 24 09
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="img">
+                                        <img src={mason} alt="" />
+                                    </div>
+                                    <div className="text">
+                                        <h6>
+                                            Mason
+                                        </h6>
+                                        <p>
+                                            QA <br/>
+                                            mason.qa@gmail.com <br/>
+                                            +38 (095) 283 27 00
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
 
-                            </li>
-                            
-                            <li>
-                                <img src={liam} alt=""/>
-                                <div>
-                                <h6>Liamgrievescasey <br/>
-                                    Smith Wiam
-                                </h6> <br/>
-
-                                <p>
-                                    Lead designer <br/>
-                                    liamgrievescasey@example.com <br/>
-                                    +38 (050) 273 93 32
-                                </p>
-                                </div>
-                            </li>
 
 
-
-
-
-                        </ul>
                     </div>
 
 

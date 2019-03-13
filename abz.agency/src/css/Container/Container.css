@@ -127,37 +127,37 @@
     font-size: 18px;
 }
 
-
-
-.people_menu div{
-    display: inline-block;
-    position: relative;
-    top:50px;
+.people_menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.people_menu li img{
+h6 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: bold!important;
+    color: #000;
+}
+.people_menu img {
     width:70px;
     height: 70px;
     border-radius: 100%;
+    margin: 0 10px;
 }
 
-.people_menu li {
-    margin-right: 40px;
-    float: left;
+.people_menu li{
+    display: flex;
+    width: 33%;
+}
+.text {
+    display: inline-block;
+    width: calc(100% - 70px);
 }
 
-.people_menu h6{
-    font-weight: bold;
-    color: #000;
-    font-size: 22px;
-    margin-left: 10px;
-    display: inline-flex;
-}
-
-.people_menu p {
-    font-family: SourceSansPro;
-    color: #4c4b4b;
+.text p{
     font-size: 14px;
-    display: inline-flex;
-    margin-left: 10px;
+    color: #4c4b4b;
+    margin: 0;
 }
+
